@@ -1,0 +1,18 @@
+ja:
+  activerecord:
+    models:
+      user: 'ユーザー'
+      comment: 'コメント'
+      admin_user: '管理者'
+    attributes:
+      user:
+        name: '名前'
+        age: '年齢'
+        address: '住所'
+        created_at: '作成日時'
+        updated_at: '更新日時'
+      admin_user:
+        email: 'アドレス'
+        current_sign_in_at: "ログイン日時"
+        sign_in_count: "ログイン回数"
+        created_at: '管理者登録日時'
